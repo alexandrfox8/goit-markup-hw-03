@@ -51,6 +51,14 @@ ul {
   overflow: hidden;
 }
 
+.section {
+    padding: 94px 0;
+}
+
+.no-padding {
+    padding-top: 0;
+}
+
 /* header */
 
 .site-nav {
@@ -166,7 +174,6 @@ ul {
 
 .scroll {
     display: flex;
-    margin: 94px 0 94px 0;
 }
 
 .scroll-item:not(:first-child) {
@@ -175,7 +182,6 @@ ul {
 
 .img-item {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .img-item .item:not(:last-child) {
@@ -206,6 +212,10 @@ ul {
 }
 
 .names {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -216,14 +226,19 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .hero{
+    padding: 200px 0;
     background-color: #2F303A;
     text-align: center;
 }
 
 .title-hero{
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -273,6 +288,12 @@ ul {
 
 .team-item {
     margin-right: 30px;
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14), 
+     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-item:last-child {
@@ -299,8 +320,6 @@ ul {
 .foot > .container {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .address{
@@ -311,7 +330,6 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 9px; 
 }
 
 .address:hover,
@@ -326,7 +344,6 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 9px;
     margin-left: 0;
 
 }
@@ -336,13 +353,17 @@ ul {
     padding: 0;
 }
 
-.cont:nth-child(3) {
-    margin-bottom: 0;
+.item {
+    margin-bottom: 9px;
 }
 
 .cont > .item:last-child {
     margin-bottom: 0;
 }
+
+
+    
+
 
 
 
@@ -352,7 +373,6 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 94px;
 }
 
 .filter{
@@ -392,7 +412,6 @@ ul {
 .filter-main {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 
 .filitem {
@@ -422,4 +441,11 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+}
+
+.card {
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
